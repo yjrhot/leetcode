@@ -12,3 +12,5 @@ class Solution(object):
                 res[j] = min(res[j], res[j + 1]) + triangle[i][j]
 
         return res[0]
+
+
